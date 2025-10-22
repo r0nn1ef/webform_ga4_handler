@@ -1,0 +1,7 @@
+name: Webform GA4 Submission Handler
+type: module
+description: "Custom handler to push Webform data to GA4/GTM Data Layer as a 'generate_lead' event."
+package: Webform
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:webform

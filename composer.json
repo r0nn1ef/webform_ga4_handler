@@ -1,0 +1,14 @@
+{
+  "name": "r0nn1ef/webform_ga4_handler",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ronald",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
