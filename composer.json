@@ -1,6 +1,6 @@
 {
-  "name": "r0nn1ef/webform_js_event",
-  "description": "Provides a custom Webform handler to execute JavaScript on submission success for GA, Facebook Pixel, and general tracking/data layer events.",
+  "name": "r0nn1ef/webform_ga4_handler",
+  "description": "Custom handler to push Webform data to GA4/GTM Data Layer as a 'generate_lead' event.",
   "type": "drupal-module",
   "minimum-stability": "stable",
   "license": "LGPL-3.0-or-later",
