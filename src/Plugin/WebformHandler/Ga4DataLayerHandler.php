@@ -41,7 +41,7 @@ class Ga4DataLayerHandler extends WebformHandlerBase {
       $script = [
         '#type' => 'html_tag',
         '#tag' => 'script',
-        '#value' => 'dataLayer.push(' . $data_layer_json . ');',
+        '#value' => 'if(dataLayer){dataLayer.push(' . $data_layer_json . ');}',
         '#attributes' => ['type' => 'text/javascript'],
         '#weight' => 99999,
       ];
